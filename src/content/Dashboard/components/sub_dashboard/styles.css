@@ -1,0 +1,41 @@
+
+.subdash{
+    padding:0px;
+    margin:10px;
+    border-radius: 10px;
+  }
+  
+  .subdashheader{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    padding:5px;
+    margin-bottom: 10px;
+    display: flex;
+    color:#0000004c;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .subdashheaderbutton{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    margin:0px 10px 0px 10px;
+    color:black;
+  }
+
+.dashgrid{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    width:100%;
+  }
+  
+  .gridbg{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    gap: 15px;
+    width:100%;
+  }
